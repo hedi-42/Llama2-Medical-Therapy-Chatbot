@@ -84,7 +84,7 @@ Go back to the project root folder and run the ingestion script to create the ve
 ### **Step 3: Start the Chatbot**  
 Run the chatbot with Chainlit:  
     ```bash
-    chainlit run model.py
+    chainlit run model.py -w
     ```
 
 ## **Notes**  
