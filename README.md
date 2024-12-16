@@ -69,21 +69,21 @@ This project is a local, AI-powered medical chatbot that retrieves context from 
 
 ### **Step 1: Serve the PDF Files**  
 Navigate to the `data` folder and serve the PDFs using Python's HTTP server:  
-    ```bash
+    ```
     cd data
     python -m http.server 8001
     ```
 
 ### **Step 2: Process the Medical Documents**  
 Go back to the project root folder and run the ingestion script to create the vector database:  
-    ```bash
+    ```
     cd ..
     python ingest.py
     ```
 
 ### **Step 3: Start the Chatbot**  
 Run the chatbot with Chainlit:  
-    ```bash
+    ```
     chainlit run model.py -w
     ```
 
